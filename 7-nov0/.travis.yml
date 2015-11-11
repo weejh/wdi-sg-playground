@@ -2,4 +2,4 @@ language: node_js
 node_js:
  - "4.1"
  before_install:
-   -"cd 7-nov"
+   -"cd wdi-notes/wdi-sg-notes/wdi-sg-playground/7-nov0"
