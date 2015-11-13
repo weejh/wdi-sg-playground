@@ -20,18 +20,16 @@ body {
   vertical-align: top;
   text-align: center;
   font-size: 160px;
+  border: 1px solid white;
+  margin: 3px 3px 3px 3px;
+  border-radius: 8px;
+  /*display: flex;
+  justify-content: space-between;*/
 }
 .tile:hover {
   text-decoration: none;
   cursor: pointer;
-}
-
-#t11, #t12, #t13, #t21, #t22, #t23 {
-  border-bottom: 1px solid white;
-}
-
-#t11, #t21, #t31, #t12, #t22, #t32 {
-  border-right: 1px solid white;
+  background: #1C1F1E;
 }
 .status, .clear {
   font-family:sans-serif;
@@ -55,10 +53,16 @@ button {
   padding: 10px 200px 10px 200px;
   text-decoration: none;
   margin: 0;
+  border: none;
+  outline: none;
 }
 
 button:hover {
   background: lightgrey;
   text-decoration: none;
   cursor: pointer;
+}
+
+@keyframes blink {
+  50% {opacity: 0.5;}
 }
